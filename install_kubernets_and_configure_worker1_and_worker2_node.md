@@ -121,5 +121,5 @@ kubeadm join 192.168.100.201:6443 --token 3bimht.7jw6lzjpuqmiuyzb \
 
 ### Check the all pods
 ```
-kubecrl get pods -A -o wide
+kubectl get pods -A -o wide
 ```
