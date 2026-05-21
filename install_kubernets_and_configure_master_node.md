@@ -159,6 +159,13 @@ wget https://docs.projectcalico.org/manifests/custom-resources.yaml
 kubectl create -f tigera-operator.yaml
 ```
 
+### Create calico-custom-resources.yaml file
+```Actionscript
+vi /root calico-custom-resources.yaml
+
+```
+
+
 ### Update the calico custom resource file on CIDR section and lights up
 ```Actionscript
 kubectl create -f calico-custom-resources.yaml
